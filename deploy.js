@@ -4,8 +4,8 @@ const compileContracts = require('./compile');
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
-let mnemonic = 'put setup mechanic reject trial cloth sign timber recycle clock agree police';
-const provider = new HDWalletProvider(mnemonic,'https://rinkeby.infura.io/v3/3d001125fb2344309c9afca64c974444');
+let mnemonic = 'you mnemonic';
+const provider = new HDWalletProvider(mnemonic,'you infura');
 
 const web3 = new Web3(provider);
 
